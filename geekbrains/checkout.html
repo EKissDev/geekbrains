@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>single page</title>
+    <title>checkout</title>
     <link rel="stylesheet" href="css/style.css">
     
 </head>
@@ -48,10 +48,9 @@
                                 </div>
                             </div>
                         </li>
-                        </li>
                     </ol>
-                        <input type="text" placeholder="Search for Item...">
-                        <a href="#"><i class="fa fa-search"></i></a>
+                    <input type="text" placeholder="Search for Item...">
+                    <a href="#"><i class="fa fa-search"></i></a>
                              
                 </div>
 
@@ -467,127 +466,240 @@
             </nav>
         </div>
     </div>
-    <section>
-        <div class="slider">
-            <div class="left_slide">
-                <a href="#"><i class="fas fa-angle-left"></i></a>
-            </div>
-            <div class="slider_img">
-                <img src="img/slider1.jpg" alt="slider">
-            </div>
-            <div class="right_slide">
-                <a href="#"><i class="fas fa-angle-right"></i></a>
-            </div>
-        </div>
-    </section>
-    <div class="buy_items">
-        <div class="container">
-            <div class="buy_items_block">
-                <h3>WOMEN COLLECTION</h3>
-                <div class="slider">
-                    <div class="slide1"></div>
-                    <div class="slide2"></div>
-                </div>
-                <h1>Moschino Cheap And Chic</h1>
-                <p>Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals.</p>
-                <div class="items_options">
-                    <p>MATERIAL:&nbsp;<span>COTTON</span></p>
-                    <p>DESIGNER:&nbsp;<span>BINBURHAN</span></p>
-                </div>
-                <h2>$561</h2>
-                <hr>
-            </div>
-            <div class="parameter">
-                <div class="choose_color">
-                    <h3>CHOOSE COLOR</h3>
-                    <div class="choose_color_block">
-                        <div class="color"></div>
-                        <p>Red</p>
-                        <a href="#"><i class="fa fa-angle-down"></i></a>
+    <div class="check container">
+        <details>
+            <summary>01. Shipping Adress</summary>
+            <div class="panel">
+                <div class="panel__left">
+                    <h3>Check as a guest or register</h3>
+                    <p>Register with us for future convenience</p>
+                    <div class="checkbox">
+                        <input type="radio" id="checkout" name="checkout"
+                               checked>
+                        <label for="scales">checkout as guest</label>
                     </div>
-                </div>
-                <div class="choose_size">
-                    <h3>CHOOSE SIZE</h3>
-                    <div class="choose_color_block">
-                        <p>XXL</p>
-                        <a href="#"><i class="fa fa-angle-down"></i></a>
+                    <div class="checkbox">
+                        <input type="radio" id="register" name="register"
+                               checked>
+                        <label for="scales">register</label>
                     </div>
+                    <h3>register and save time!</h3>
+                    <p>Register with us for future convenience</p>
+                    <p><i class="fas fa-angle-double-right"></i> Fast and easy checkout</p>
+                    <p><i class="fas fa-angle-double-right"></i> Easy access to your order history and status</p>
+                    <a href="#">continue</a>
                 </div>
-                <div class="quantity">
-                    <h3>QUANTITY</h3>
-                    <div class="choose_color_block">
-                        <p>2</p>
+                <div class="panel__right">
+                    <h3>Already registed?</h3>
+                    <p>Please log in below</p>
+                    <p><span>EMAIL ADDRESS </span><br>
+                    <input type="text">
+                    <p><span>PASSWORD </span><br>
+                    <input type="text"><br>
+                    <h2>* Required Fileds</h2>
+                    <div class="login">
+                        <a href="#">log in</a>
+                        <a class="pass" href="#">Forgot Password ?</a>
                     </div>
+                    
                 </div>
             </div>
-            <div class="btn">
-               <a href="#"><img src="img/acc_pink.png" alt="acc"></a>
-                <a href="#"><p>Add to Cart</p></a>
+        </details>
+        <details>
+            <summary>02. BILLING INFORMATION</summary>
+            <div class="panel">
+                <div class="panel__left">
+                    <h3>Check as a guest or register</h3>
+                    <p>Register with us for future convenience</p>
+                    <div class="checkbox">
+                        <input type="radio" id="checkout" name="checkout"
+                               checked>
+                        <label for="scales">checkout as guest</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="radio" id="register" name="register"
+                               checked>
+                        <label for="scales">register</label>
+                    </div>
+                    <h3>register and save time!</h3>
+                    <p>Register with us for future convenience</p>
+                    <p><i class="fas fa-angle-double-right"></i> Fast and easy checkout</p>
+                    <p><i class="fas fa-angle-double-right"></i> Easy access to your order history and status</p>
+                    <a href="#">continue</a>
+                </div>
+                <div class="panel__right">
+                    <h3>Already registed?</h3>
+                    <p>Please log in below</p>
+                    <p><span>EMAIL ADDRESS </span><br>
+                    <input type="text">
+                    <p><span>PASSWORD </span><br>
+                    <input type="text"><br>
+                    <h2>* Required Fileds</h2>
+                    <div class="login">
+                        <a href="#">log in</a>
+                        <a class="pass" href="#">Forgot Password ?</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </details>
+        <details>
+            <summary>03. SHIPPING INFORMATION</summary>
+            <div class="panel">
+                <div class="panel__left">
+                    <h3>Check as a guest or register</h3>
+                    <p>Register with us for future convenience</p>
+                    <div class="checkbox">
+                        <input type="radio" id="checkout" name="checkout"
+                               checked>
+                        <label for="scales">checkout as guest</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="radio" id="register" name="register"
+                               checked>
+                        <label for="scales">register</label>
+                    </div>
+                    <h3>register and save time!</h3>
+                    <p>Register with us for future convenience</p>
+                    <p><i class="fas fa-angle-double-right"></i> Fast and easy checkout</p>
+                    <p><i class="fas fa-angle-double-right"></i> Easy access to your order history and status</p>
+                    <a href="#">continue</a>
+                </div>
+                <div class="panel__right">
+                    <h3>Already registed?</h3>
+                    <p>Please log in below</p>
+                    <p><span>EMAIL ADDRESS </span><br>
+                    <input type="text">
+                    <p><span>PASSWORD </span><br>
+                    <input type="text"><br>
+                    <h2>* Required Fileds</h2>
+                    <div class="login">
+                        <a href="#">log in</a>
+                        <a class="pass" href="#">Forgot Password ?</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </details>
+        <details>
+            <summary>04. SHIPPING METHOD</summary>
+            <div class="panel">
+                <div class="panel__left">
+                    <h3>Check as a guest or register</h3>
+                    <p>Register with us for future convenience</p>
+                    <div class="checkbox">
+                        <input type="radio" id="checkout" name="checkout"
+                               checked>
+                        <label for="scales">checkout as guest</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="radio" id="register" name="register"
+                               checked>
+                        <label for="scales">register</label>
+                    </div>
+                    <h3>register and save time!</h3>
+                    <p>Register with us for future convenience</p>
+                    <p><i class="fas fa-angle-double-right"></i> Fast and easy checkout</p>
+                    <p><i class="fas fa-angle-double-right"></i> Easy access to your order history and status</p>
+                    <a href="#">continue</a>
+                </div>
+                <div class="panel__right">
+                    <h3>Already registed?</h3>
+                    <p>Please log in below</p>
+                    <p><span>EMAIL ADDRESS </span><br>
+                    <input type="text">
+                    <p><span>PASSWORD </span><br>
+                    <input type="text"><br>
+                    <h2>* Required Fileds</h2>
+                    <div class="login">
+                        <a href="#">log in</a>
+                        <a class="pass" href="#">Forgot Password ?</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </details>
+        <details>
+            <summary>05. PAYMENT METHOD</summary>
+            <div class="panel">
+                <div class="panel__left">
+                    <h3>Check as a guest or register</h3>
+                    <p>Register with us for future convenience</p>
+                    <div class="checkbox">
+                        <input type="radio" id="checkout" name="checkout"
+                               checked>
+                        <label for="scales">checkout as guest</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="radio" id="register" name="register"
+                               checked>
+                        <label for="scales">register</label>
+                    </div>
+                    <h3>register and save time!</h3>
+                    <p>Register with us for future convenience</p>
+                    <p><i class="fas fa-angle-double-right"></i> Fast and easy checkout</p>
+                    <p><i class="fas fa-angle-double-right"></i> Easy access to your order history and status</p>
+                    <a href="#">continue</a>
+                </div>
+                <div class="panel__right">
+                    <h3>Already registed?</h3>
+                    <p>Please log in below</p>
+                    <p><span>EMAIL ADDRESS </span><br>
+                    <input type="text">
+                    <p><span>PASSWORD </span><br>
+                    <input type="text"><br>
+                    <h2>* Required Fileds</h2>
+                    <div class="login">
+                        <a href="#">log in</a>
+                        <a class="pass" href="#">Forgot Password ?</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </details>
+        <details>
+            <summary>06. ORDER REVIEW</summary>
+            <div class="panel">
+                <div class="panel__left">
+                    <h3>Check as a guest or register</h3>
+                    <p>Register with us for future convenience</p>
+                    <div class="checkbox">
+                        <input type="radio" id="checkout" name="checkout"
+                               checked>
+                        <label for="scales">checkout as guest</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="radio" id="register" name="register"
+                               checked>
+                        <label for="scales">register</label>
+                    </div>
+                    <h3>register and save time!</h3>
+                    <p>Register with us for future convenience</p>
+                    <p><i class="fas fa-angle-double-right"></i> Fast and easy checkout</p>
+                    <p><i class="fas fa-angle-double-right"></i> Easy access to your order history and status</p>
+                    <a href="#">continue</a>
+                </div>
+                <div class="panel__right">
+                    <h3>Already registed?</h3>
+                    <p>Please log in below</p>
+                    <p><span>EMAIL ADDRESS </span><br>
+                    <input type="text">
+                    <p><span>PASSWORD </span><br>
+                    <input type="text"><br>
+                    <h2>* Required Fileds</h2>
+                    <div class="login">
+                        <a href="#">log in</a>
+                        <a class="pass" href="#">Forgot Password ?</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </details>
 
-            </div>
-        </div>
     </div>
     
-    <div class="items">
-        <div class="container">
-            <div class="items_text style_single">
-                <h1>you may like also</h1>
-                
-            </div>
-            <div class="items_show">
-                <div class="items_show_block">
-                    <div class="img_items_show_block_background">
-                        <div class="img_items_show_block">
-                            <a href="#"><img src="img/basket_white.png " alt="basket">Add to Cart</a>
-                        </div>
-                    </div>
-                    <img src="img/item_single_page/item4.png" alt="Mango People T-shirt">
-                    <div class="items_show_block_text">
-                        <h1>BLAZE LEGGINGS</h1>
-                        <p>$52.00</p>
-                    </div>
-                </div> 
-                <div class="items_show_block">
-                    <div class="img_items_show_block_background">
-                        <div class="img_items_show_block">
-                            <a href="#"><img src="img/basket_white.png " alt="basket">Add to Cart</a>
-                        </div>
-                    </div>
-                    <img src="img/item_single_page/item4.png" alt="Mango People T-shirt">
-                    <div class="items_show_block_text">
-                        <h1>ALEXA SWEATER</h1>
-                        <p>$52.00</p>
-                    </div>
-                </div>    
-                <div class="items_show_block">
-                    <div class="img_items_show_block_background">
-                        <div class="img_items_show_block">
-                            <a href="#"><img src="img/basket_white.png " alt="basket">Add to Cart</a>
-                        </div>
-                    </div>
-                    <img  class="img_bag" src="img/item_single_page/item4.png" alt="Mango People T-shirt">
-                    <div class="items_show_block_text">
-                        <h1>AGNES TOP</h1>
-                        <p>$52.00</p>
-                    </div>
-                </div>    
-                <div class="items_show_block">
-                    <div class="img_items_show_block_background">
-                        <div class="img_items_show_block">
-                            <a href="#"><img src="img/basket_white.png " alt="basket">Add to Cart</a>
-                        </div>
-                    </div>
-                    <img src="img/item_single_page/item4.png" alt="Mango People T-shirt">
-                    <div class="items_show_block_text">
-                        <h1>SYLVA SWEATER</h1>
-                        <p>$52.00</p>
-                    </div>
-                </div> 
-                  
-            </div>
-            
-        </div>
-    </div>
+   
+  
     
     <div class="subscribe">
         <img class="back_sub" src="img/back_sub.png">
@@ -697,5 +809,6 @@
     </footer>
     
     <script src="https://kit.fontawesome.com/cb9debe8a5.js" crossorigin="anonymous"></script>
+    
 </body>
 </html>
